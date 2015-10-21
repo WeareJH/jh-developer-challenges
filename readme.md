@@ -23,6 +23,6 @@ The challenge is to write the logic for a delivery date calculation within the S
  7. Code must conform to PSR-1 and PSR-2 standards
  8. Methods should be commented with Docblock for parameters and return types
 
- ## Submission
- Once you have complete your work add your changes to the stage and commit. Once you have successfully
- commit `git push origin YOURNAME`. Submit the link to your repo to JH.
+## Submission
+Once you have complete your work add your changes to the stage and commit. Once you have successfully
+commit `git push origin YOURNAME`. Submit the link to your repo to JH.
