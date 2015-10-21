@@ -1,0 +1,23 @@
+{
+  "name": "wearejh/developer-challenges",
+  "description": "JH Developer challenges to test your ability to follow instructions and solve problems",
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "authors": [
+    {
+      "name": "John Knowles",
+      "email": "john@wearejh.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jh\\Shipping\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jh\\DevDatesTest\\": "test/"
+    }
+  }
+}
