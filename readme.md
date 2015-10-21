@@ -21,6 +21,8 @@ The challenge is to write the logic for a delivery date calculation within the S
  5. The code must pass all tests
  6. Only work in ./src/ShippingDates.php
  7. Code must conform to PSR-1 and PSR-2 standards
+    1. https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
+    2. https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
  8. Methods should be commented with Docblock for parameters and return types
 
 ## Submission
