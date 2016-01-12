@@ -26,10 +26,10 @@ The challenge is to write the logic for a delivery date calculation within the S
     2. https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
  9. Methods should be commented with Docblock for parameters and return types.
 
- ## Challenge 2
- The challenge is an extension on challenge 1 adding cut off times for dispatch dates.
+## Challenge 2
+The challenge is an extension on challenge 1 adding cut off times for dispatch dates.
 
- ### Requirements
+### Requirements
  1. The class must conform to the requirements of the defined interface implementing the calculateDeliveryDate method.
  2. All deliveries are on a 3 working day service.
  3. Orders are dispatched the same day unless ordered after 17:00 when they will be dispatched the next working day.
