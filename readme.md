@@ -15,16 +15,34 @@ The challenge is to write the logic for a delivery date calculation within the S
 
 ### Requirements
  1. The class must conform to the requirements of the defined interface implementing the calculateDeliveryDate method.
- 2. All deliveries are on a 3 day service, there is no time calculation for simplicity.
- 3. No parcel can be dispatched on a Saturday or Sunday.
- 4. No parcel can be delivered on a Saturday or Sunday.
- 5. The code must pass all tests
- 6. Only work in ./src/ShippingDates.php
- 7. Code must conform to PSR-1 and PSR-2 standards
+ 2. All deliveries are on a 3 working day service, there is no time calculation for simplicity.
+ 3. Orders are dispatched same day
+ 4. No parcel can be dispatched on a Saturday or Sunday.
+ 5. No parcel can be delivered on a Saturday or Sunday.
+ 6. The code must pass all tests
+ 7. Only work in ./src/ShippingDates.php
+ 8. Code must conform to PSR-1 and PSR-2 standards
     1. https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
     2. https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
- 8. Methods should be commented with Docblock for parameters and return types
+ 9. Methods should be commented with Docblock for parameters and return types
+
+ ## Challenge 2
+ The challenge is an extension on challenge 1 adding cut off times for dispatch dates.
+
+ ### Requirements
+  1. The class must conform to the requirements of the defined interface implementing the calculateDeliveryDate method.
+  2. All deliveries are on a 3 working day service.
+  3. No parcel can be dispatched the same day after 17:00
+  4. No parcel can be dispatched on a Saturday or Sunday.
+  5. No parcel can be delivered on a Saturday or Sunday.
+  6. The code must pass all tests
+  7. Only work in ./src/ShippingDates.php
+  8. Code must conform to PSR-1 and PSR-2 standards
+     1. https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
+     2. https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
+  9. Methods should be commented with Docblock for parameters and return types
 
 ## Submission
 Once you have complete your work add your changes to the stage and commit. Once you have successfully
-commit `git push origin YOURNAME`. Submit the link to your repo to JH.
+commit `git push origin YOURNAME`. Submit the link to your repo to JH. Do not create a pull request to
+the JH repo.
